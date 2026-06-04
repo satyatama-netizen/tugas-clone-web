@@ -4,7 +4,7 @@ const navbar = () => {
   return (
     <div>
       <nav className="navbar">
-        <div className="FyPbar bg-black flex justify-center items-center h-14 gap-10 border-b-1 border-gray-600 z-1">
+        <div className="FyPbar bg-black flex justify-center items-center p-10 gap-50 border-b-1 border-gray-600 z-1 text-5xl">
           <div className="ForYouPage text-white">
             <a href="/">For You</a>
           </div>

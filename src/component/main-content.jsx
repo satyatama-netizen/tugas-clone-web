@@ -24,21 +24,21 @@ const MainContent = () => {
     <div>
       <div className="post-content justify-center z-0">
         <div className="post-bar font-bold bg-black p-5 py-3 gap-5 ">
-          <div className="post-header flex gap-5 m-4 mb-4 justify-center">
+          <div className="post-header flex gap-15 m-4 mb-4 justify-center">
             <img
               src="./src/assets/user.png"
               alt=""
               srcSet=""
-              className="w-10 h-10"
+              className="w-35 h-35"
             />
             <input
               type="text"
               placeholder="What's happening?"
-              className="bg-black outline-none border-b-1"
+              className="bg-black outline-none border-b-1 w-100 h-25"
             />
           </div>
 
-          <div className="post-options flex p-3 gap-5 bg-black justify-center align-items-center">
+          <div className="post-options flex p-3 gap-10 bg-black justify-center align-item-center">
             <img
               src="./src/assets/gallery (1).svg"
               alt=""
@@ -81,8 +81,8 @@ const MainContent = () => {
               srcSet=""
               className="w-5 h-5"
             />
-            <button className="bg-blue-500 text-black px-5 py-2 rounded-full text-sm ml-20">
-              Post
+            <button className="bg-blue-500 text-black px-5 py-2 rounded-full text-sm ml-20 text-white h-auto w-50">
+              POST
             </button>
           </div>
         </div>
